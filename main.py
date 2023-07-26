@@ -34,4 +34,6 @@ while attempts > 0:
             attempts -= 1
     else:
         print("Неправильний формат.")
+        continue
+
         print("Кількість спроб закінчилася. Ви програли.")
